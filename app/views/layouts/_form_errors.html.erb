@@ -1,0 +1,8 @@
+<ul>
+  <% if @user.errors.any? %>
+      <p>Sorry!  <%= pluralize(@user.errors.count, "error") %> stopped this form being processed!</p>
+      <% @user.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+      <% end %>
+  <% end %>
+</ul>
