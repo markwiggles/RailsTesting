@@ -1,6 +1,6 @@
 <h1>Public#index</h1>
 
-<p>Environment variable test: <%= ENV["DB_ROOT_PASSWORD"]%></p>
+<p>Environment variable test: <%= ENV["DB_ROOT_PASSWORD"] %></p>
 
 <p><%= flash[:notice] %></p>
 <%= link_to("Add New User", {:action => 'new'}, :id => "new_link", remote: true) %>
@@ -20,15 +20,20 @@
         type: 'POST',
         url: 'public/get_json',
         data: {photoset_id: "72157642276492534"},
-        success: function(result){
+        success: function (result) {
 
 
-           var res = $.parseJSON(result);
+            var res = $.parseJSON(result);
 
             var res2 = $.parseJSON(res);
 
-            $.each(res2.photoset.photo, function(key,photo){
-                console.log(createImageUrl(photo,'thumb'));
+            $.each(res2.photoset.photo, function (key, photo) {
+
+                $('#json-div')
+                        .append($('<img>')
+                                .addClass('photo')
+                                .attr('src', createImageUrl(photo, 'thumb'))
+                                );
             });
         }
     });
