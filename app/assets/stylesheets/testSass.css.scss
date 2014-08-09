@@ -5,7 +5,7 @@ $gender: 'boy';
 
 $genderColor: if($gender == 'boy', lightblue, pink);
 
-@mixin Border($size, $radius) {
+@mixin Border($size: 1px, $radius: 5px) {
   border: $size solid $color;
   border-radius: $radius;
 }
@@ -14,5 +14,6 @@ $genderColor: if($gender == 'boy', lightblue, pink);
   padding: 10px;
   margin: 2px;
   background-color: $genderColor;
-  @include Border(2px, 10px);
+  @include Border(5px, 10px);
 }
+

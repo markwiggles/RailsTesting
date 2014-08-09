@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3040896607">
+    <data-source source="LOCAL" name="Rails RailsTesting: development" uuid="a1cb1ec2-bbb2-4d91-be61-8c034662fb28">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/rails_testing</jdbc-url>
+      <user-name>markw</user-name>
+      <user-password>dfc8dfcfdfcbdfc9dfc2dfc8dfdfdfc7</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails RailsTesting: test" uuid="92e6c250-a7a0-44b7-9140-cf8515ff4bb7">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/RailsTesting_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdadfcbdfd9dfd9dfdddfc5dfd8dfce</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails RailsTesting: production" uuid="865ea97e-de69-47d8-8710-7f5b3e4e90ec">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/RailsTesting_production</jdbc-url>
+      <user-name>RailsTesting</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfebdfe3dfe6dff9dffedfefdff9dffedfe3dfe4dfeddff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
